@@ -31,5 +31,4 @@ public class ReactAppPageAssertions extends BasePage {
         List<WebElement> logger = $$("//div[@class='Logger_logsWrapper__ZmaZS']/p");
         Assert.assertEquals($$("//div[@class='Logger_logsWrapper__ZmaZS']/p").get(logger.size() - 1).getText(), "row 1 col 1");
     }
-
 }

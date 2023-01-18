@@ -30,7 +30,6 @@ public class TestReactApp extends BaseTest {
 
         List<List<WebElement>> lists = reactAppPageActions.getAllRowWithAllCells();
         reactAppPageActions.moveToCellInTable(lists, 1, 1);
-
         reactAppPageAssertions.assertCellChangeColor();
         reactAppPageAssertions.checkColour(lists, 1, 1, blue);
         reactAppPageActions.moveToStartEl();

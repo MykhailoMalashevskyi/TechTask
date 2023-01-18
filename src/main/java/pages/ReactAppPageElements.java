@@ -18,5 +18,4 @@ public class ReactAppPageElements extends BasePage {
     public void getEasyBTN(){
         new Select($("//select[@class='Select_select__y1CZ9']")).selectByValue("Easy");
     }
-
 }
